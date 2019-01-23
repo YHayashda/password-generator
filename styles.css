@@ -1,0 +1,39 @@
+
+
+body {
+  text-align: center;
+}
+
+input[type=text] {
+  width: 300px;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+
+#btn {
+  width: 200px;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 30px auto;
+
+  cursor: pointer;
+  opacity: .7;
+}
+#btn:hover {
+  opacity: 1;
+}
+
+
+fieldset {
+  width: 280px;
+  margin: 50px auto 0 auto;
+}
+legend {
+  font-size: 1.6rem;
+}

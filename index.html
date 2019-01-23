@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>PW generator</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <p><input type="text" id="password" placeholder="'password'"/></p>
+    <p><div id="btn">Create Password!</div></p>
+    <fieldset>
+      <legend>options</legend>
+      <p>Length(<span id="label">8</span>): <input type="range" id="slider" value="8" min="4" max="16"></p>
+      <p>Small letters: <input type="checkbox" id="smalls">
+      <p>Capital letters: <input type="checkbox" id="capitals">
+      <p>Numbers: <input type="checkbox" id="num"></p>
+      <p>Symbols: <input type="checkbox" id="sym"></p>
+    </fieldset>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
